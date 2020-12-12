@@ -3,19 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro projeto HTML+CSS</title>
-    <style>
-        body{
-            background-color: gray;
-        }
-        h1{
-            margin: auto;
-            color: black;
-            font-family: sans-serif;
-        }
-    </style>
+    <title>Primeiro_Replay</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Essa merda vai ser algo grande</h1>
+    <!--Container - Contem tudo do SITE-->
+    <div class = "container">
+        <!--MENU-->
+        <div class = "menu">
+            <!--Lista de Itens no Menu-->
+            <ul>
+                <li class = "logo">VICENTE</li>
+                <li class = "active">Home</li>
+                <li>Services</li>
+                <li>Products</li>
+                <li>Contact</li>
+                <li><a href="#" class = "singup-btn"><span>Sing Up</span></a></li>
+            </ul>
+        </div>
+        <!--BANNER-->
+        <div class = "banner">
+            <!--Informações de Texto-->
+            <div class="app-text">
+                <h1>Um site estático para treinar<br> HTML e CSS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Mollitia distinctio qui,<br> iusto alias excepturi accusantium 
+                    sint iure sit consequuntur repellat eos dolores<br> animi 
+                    asperiores dolorem ea! Ducimus hic suscipit nam.</p>
+            </div>
+        </div>
+        <!--Imagem-->
+        <div class = app-picture>
+            <img src="/Viccente.png" alt="Foto_Canal" srcset="">
+
+        </div>
+
+    </div>
+    
 </body>
 </html>
